@@ -1,0 +1,36 @@
+#!/bin/sh
+# Superset first-run initialization: secret key, metadata db, admin user.
+
+set -e
+
+: "${SUPERSET_HOME:=/config}"
+
+# Persist a generated SECRET_KEY unless the user provides one.
+if [ -z "$SUPERSET_SECRET_KEY" ]; then
+    if [ ! -f "$SUPERSET_HOME/.secret_key" ]; then
+        openssl rand -base64 42 > "$SUPERSET_HOME/.secret_key"
+        chmod 600 "$SUPERSET_HOME/.secret_key"
+        chown bsd:bsd "$SUPERSET_HOME/.secret_key"
+        echo "[init] Generated SECRET_KEY at $SUPERSET_HOME/.secret_key"
+    fi
+fi
+
+# Migrate the metadata database (SQLite by default, DATABASE_URL to override).
+echo "[init] Running superset db upgrade..."
+s6-setuidgid bsd /app/venv/bin/superset db upgrade
+
+# Ensure an admin user when credentials are provided.
+if [ -n "$SUPERSET_ADMIN_PASSWORD" ]; then
+    echo "[init] Ensuring admin user '${SUPERSET_ADMIN_USERNAME:-admin}'..."
+    s6-setuidgid bsd /app/venv/bin/superset fab create-admin \
+        --username "${SUPERSET_ADMIN_USERNAME:-admin}" \
+        --firstname Superset \
+        --lastname Admin \
+        --email "${SUPERSET_ADMIN_EMAIL:-admin@example.com}" \
+        --password "$SUPERSET_ADMIN_PASSWORD" || true
+fi
+
+echo "[init] Running superset init..."
+s6-setuidgid bsd /app/venv/bin/superset init
+
+echo "[init] Superset initialization complete"

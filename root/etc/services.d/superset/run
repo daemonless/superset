@@ -1,0 +1,17 @@
+#!/bin/sh
+# Superset s6 service
+
+echo "[INFO] Starting Superset..."
+
+# Signal s6 readiness once the health endpoint answers (see notification-fd)
+s6-ready-when "fetch -qo /dev/null http://127.0.0.1:8088/health"
+
+# gunicorn is pkg-installed (no venv entrypoint); run its module under the
+# venv python so it can import superset from the venv site-packages.
+exec s6-setuidgid bsd /app/venv/bin/python -m gunicorn \
+    'superset.app:create_app()' \
+    --bind "0.0.0.0:8088" \
+    --workers "${SUPERSET_WORKERS:-2}" \
+    --timeout 120 \
+    --access-logfile - \
+    --error-logfile -

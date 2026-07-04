@@ -1,0 +1,96 @@
+name: superset
+
+x-daemonless:
+  title: "Superset"
+  icon: ":simple-apachesuperset:"
+  category: "Productivity"
+  description: "Modern data exploration and visualization platform — build charts, dashboards, and SQL-driven analytics on top of your databases."
+  upstream_url: "https://github.com/apache/superset"
+  web_url: "https://superset.apache.org/"
+  user: "bsd"
+  upstream_binary: true
+  appjail: true
+  community: "Discord:https://discord.gg/Kb9tkhecZT"
+
+  healthcheck:
+    port: 8088
+    path: /health
+
+  notes: |
+    ### Redis caching
+
+    Set `REDIS_URL` to enable Redis-backed caching, e.g. with
+    [daemonless/redis](https://daemonless.io/images/redis) on the same host
+    (`network_mode: host` — inter-container DNS is not available on
+    FreeBSD podman):
+
+    ```yaml
+    services:
+      superset:
+        image: ghcr.io/daemonless/superset:latest
+        container_name: superset
+        restart: unless-stopped
+        network_mode: host
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - TZ=UTC
+          - REDIS_URL=redis://localhost:6379/0
+        volumes:
+          - /containers/superset:/config
+        depends_on:
+          - redis
+
+      redis:
+        image: ghcr.io/daemonless/redis:latest
+        container_name: superset_redis
+        restart: unless-stopped
+        network_mode: host
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - TZ=UTC
+        volumes:
+          - /containers/superset-redis:/config
+    ```
+
+    ### CSV / file uploads
+
+    Uploads require a database connection with **Allow file uploads to
+    database** enabled (edit the database → Advanced → Security). To use a
+    local SQLite playground database as the upload target, start the
+    container with `SUPERSET_ALLOW_SQLITE=true`.
+
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+      SUPERSET_SECRET_KEY: "Flask SECRET_KEY; auto-generated and persisted to /config/.secret_key when unset"
+      SUPERSET_ADMIN_USERNAME: "Admin username to ensure on startup (default: admin)"
+      SUPERSET_ADMIN_PASSWORD: "When set, creates/ensures the admin user on startup"
+      SUPERSET_ADMIN_EMAIL: "Admin email (default: admin@example.com)"
+      SUPERSET_WORKERS: "Gunicorn worker count (default: 2)"
+      DATABASE_URL: "Metadata database URI (default: sqlite:////config/superset.db)"
+      REDIS_URL: "Optional Redis URL for caching"
+    volumes:
+      /config: "Superset home: metadata DB, secret key, uploads"
+    ports:
+      8088: "Web UI"
+
+services:
+  superset:
+    image: ghcr.io/daemonless/superset:latest
+    container_name: superset
+    restart: unless-stopped
+
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/superset:/config
+
+    ports:
+      - 8088:8088

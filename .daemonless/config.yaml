@@ -1,0 +1,18 @@
+# dbuild configuration file
+# Place in .daemonless/config.yaml or .dbuild.yaml (higher priority)
+#
+# Full reference: https://github.com/daemonless/dbuild
+
+build:
+  variants:
+    - tag: latest
+      containerfile: Containerfile
+      default: true
+
+cit:
+  mode: screenshot
+  port: 8088
+  health: /health
+  wait: 180
+  ready: "Listening at"
+  screenshot_wait: 5
