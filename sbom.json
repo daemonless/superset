@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-04T21:32:49Z",
+  "generated": "2026-07-13T23:16:33Z",
   "image": "superset",
   "tags": {
     "latest": {
       "app_version": "6.1.0",
       "arch": "amd64",
-      "generated": "2026-07-04T21:31:28Z",
+      "generated": "2026-07-13T23:15:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -147,11 +147,11 @@
           },
           {
             "name": "aom",
-            "version": "3.14.1"
+            "version": "3.14.1_1"
           },
           {
             "name": "arrow",
-            "version": "24.0.0"
+            "version": "24.0.0_1"
           },
           {
             "name": "avahi-app",
@@ -195,7 +195,7 @@
           },
           {
             "name": "aws-c-sdkutils",
-            "version": "0.2.6"
+            "version": "0.2.7"
           },
           {
             "name": "aws-checksums",
@@ -203,7 +203,7 @@
           },
           {
             "name": "aws-crt-cpp",
-            "version": "0.40.1"
+            "version": "0.41.0"
           },
           {
             "name": "aws-sdk-cpp",
@@ -231,11 +231,11 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "consolekit2",
-            "version": "2.0.0"
+            "version": "2.0.0_1"
           },
           {
             "name": "curl",
@@ -331,11 +331,11 @@
           },
           {
             "name": "graphite2",
-            "version": "1.3.14"
+            "version": "1.3.15"
           },
           {
             "name": "grpc",
-            "version": "1.80.0,2"
+            "version": "1.81.1,2"
           },
           {
             "name": "harfbuzz",
@@ -343,7 +343,7 @@
           },
           {
             "name": "hwdata",
-            "version": "0.408,1"
+            "version": "0.409,1"
           },
           {
             "name": "icu",
@@ -363,7 +363,7 @@
           },
           {
             "name": "jq",
-            "version": "1.8.1"
+            "version": "1.8.2"
           },
           {
             "name": "jsoncpp",
@@ -371,7 +371,7 @@
           },
           {
             "name": "lame",
-            "version": "3.100_5"
+            "version": "3.101_1"
           },
           {
             "name": "lcms2",
@@ -455,7 +455,7 @@
           },
           {
             "name": "libevent",
-            "version": "2.1.12"
+            "version": "2.1.13"
           },
           {
             "name": "libffi",
@@ -647,7 +647,7 @@
           },
           {
             "name": "py312-apsw",
-            "version": "3.53.1.0"
+            "version": "3.53.2.0"
           },
           {
             "name": "py312-attrs",
@@ -655,7 +655,7 @@
           },
           {
             "name": "py312-backports.zstd",
-            "version": "1.5.0"
+            "version": "1.6.0"
           },
           {
             "name": "py312-bcrypt",
@@ -675,11 +675,11 @@
           },
           {
             "name": "py312-cryptography",
-            "version": "48.0.0_1,1"
+            "version": "48.0.1,1"
           },
           {
             "name": "py312-greenlet",
-            "version": "3.5.1"
+            "version": "3.5.3"
           },
           {
             "name": "py312-jsonschema",
@@ -695,7 +695,7 @@
           },
           {
             "name": "py312-msgpack",
-            "version": "1.1.2"
+            "version": "1.2.1"
           },
           {
             "name": "py312-msgspec",
@@ -867,7 +867,7 @@
           },
           {
             "name": "sqlite3",
-            "version": "3.53.1,1"
+            "version": "3.53.3,1"
           },
           {
             "name": "tcl86",
@@ -1090,7 +1090,7 @@
           },
           {
             "name": "apsw",
-            "version": "3.53.1.0"
+            "version": "3.53.2.0"
           },
           {
             "name": "async-timeout",
@@ -1118,7 +1118,7 @@
           },
           {
             "name": "backports.zstd",
-            "version": "1.5.0"
+            "version": "1.6.0"
           },
           {
             "name": "bcrypt",
@@ -1202,7 +1202,7 @@
           },
           {
             "name": "cryptography",
-            "version": "48.0.0"
+            "version": "48.0.1"
           },
           {
             "name": "defusedxml",
@@ -1262,7 +1262,7 @@
           },
           {
             "name": "greenlet",
-            "version": "3.5.1"
+            "version": "3.5.3"
           },
           {
             "name": "gunicorn",
@@ -1370,7 +1370,7 @@
           },
           {
             "name": "msgpack",
-            "version": "1.1.2"
+            "version": "1.2.1"
           },
           {
             "name": "msgspec",
