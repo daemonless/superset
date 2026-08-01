@@ -1,831 +1,1475 @@
 {
-  "generated": "2026-07-27T22:13:55Z",
+  "generated": "2026-08-01T23:33:45Z",
   "image": "superset",
   "tags": {
     "latest": {
       "app_version": "6.1.0",
       "arch": "amd64",
-      "generated": "2026-07-27T22:12:23Z",
+      "generated": "2026-08-01T23:26:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-audit-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-blocklist",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-bzip2-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-certctl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-ctf-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-devmatch",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-fetch",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-kerberos-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libarchive",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libbsdstat",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libcasper",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libexecinfo",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libldns",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libmagic",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libucl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-mtree",
-            "version": "15.1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ncurses-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pam-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pkg-bootstrap",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-rc",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-tcpd",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ufs-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-xz-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-zfs-lib",
             "version": "15.1p1"
           },
           {
+            "licenses": [
+              "Zlib"
+            ],
             "name": "FreeBSD-zlib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-zstd-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "abseil",
             "version": "20250127.1_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "aom",
             "version": "3.14.1_1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "arrow",
             "version": "24.0.0_2"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "avahi-app",
             "version": "0.8_6"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-c-auth",
             "version": "0.10.4"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-c-cal",
-            "version": "0.9.14"
+            "version": "0.9.15"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-c-common",
-            "version": "0.14.3,1"
+            "version": "0.14.4,1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-c-compression",
             "version": "0.3.2"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-c-event-stream",
             "version": "0.7.1,1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-c-http",
             "version": "0.11.0"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-c-io",
-            "version": "0.27.4"
+            "version": "0.27.5"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-c-mqtt",
             "version": "0.16.0"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-c-s3",
-            "version": "0.13.1"
+            "version": "0.13.3"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-c-sdkutils",
-            "version": "0.2.7"
+            "version": "0.2.8"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-checksums",
             "version": "0.2.10,1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-crt-cpp",
-            "version": "0.42.3"
+            "version": "0.43.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "aws-sdk-cpp",
-            "version": "1.11.848"
+            "version": "1.11.855"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "benchmark",
             "version": "1.9.5,1"
           },
           {
+            "licenses": [
+              "LGPL3",
+              "GPLv3"
+            ],
             "name": "binutils",
             "version": "2.44,1"
           },
           {
+            "licenses": [
+              "BSL"
+            ],
             "name": "boost-libs",
             "version": "1.89.0_3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "brotli",
             "version": "1.2.0,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "c-ares",
             "version": "1.34.8"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "ca_root_nss",
             "version": "3.125"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "consolekit2",
             "version": "2.0.0_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "curl",
             "version": "8.21.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "dav1d",
             "version": "1.5.3_1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "dbus",
             "version": "1.16.2_4,1"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "dbus-glib",
             "version": "0.114"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "duktape-lib",
             "version": "2.7.0_1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "execline",
             "version": "2.9.8.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "expat",
             "version": "2.8.2"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "fftw3",
             "version": "3.3.10_5"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "fftw3-float",
             "version": "3.3.10_5"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "BSD3CLAUSE",
+              "GPLv2",
+              "GFDL"
+            ],
             "name": "flac",
             "version": "1.5.0,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "fontconfig",
             "version": "2.17.1,1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "FTL"
+            ],
             "name": "freetype2",
             "version": "2.14.3"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "fribidi",
             "version": "1.0.16"
           },
           {
+            "licenses": [
+              "GPLv3",
+              "GPLv3RLE"
+            ],
             "name": "gcc14",
             "version": "14.2.0_6"
           },
           {
+            "licenses": [
+              "GPLv3+"
+            ],
             "name": "gdbm",
             "version": "1.26"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "gdk-pixbuf2",
             "version": "2.44.1"
           },
           {
+            "licenses": [
+              "GPLv3+",
+              "LGPL21+"
+            ],
             "name": "gettext-runtime",
             "version": "1.0_1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "gflags",
             "version": "2.3.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "giflib",
             "version": "6.1.3"
           },
           {
+            "licenses": [
+              "LGPL20"
+            ],
             "name": "glib",
             "version": "2.86.4,2"
           },
           {
+            "licenses": [
+              "LGPL3"
+            ],
             "name": "gmp",
             "version": "6.3.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "gnome_subr",
             "version": "1.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "googletest",
             "version": "1.16.0"
           },
           {
+            "licenses": [
+              "MPL20",
+              "LGPL21",
+              "GPLv2"
+            ],
             "name": "graphite2",
             "version": "1.3.15"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "grpc",
             "version": "1.82.1,2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "harfbuzz",
             "version": "14.2.1"
           },
           {
+            "licenses": [
+              "MIT",
+              "GPLv2+"
+            ],
             "name": "hwdata",
             "version": "0.409,1"
           },
           {
+            "licenses": [
+              "ICU"
+            ],
             "name": "icu",
             "version": "76.1,1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "indexinfo",
             "version": "0.3.1_1"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "jbigkit",
             "version": "2.1_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "IJG",
+              "ZLIB"
+            ],
             "name": "jpeg-turbo",
             "version": "3.1.4.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "jq",
             "version": "1.8.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "jsoncpp",
             "version": "1.9.6_1"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "lame",
             "version": "4.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "lcms2",
             "version": "2.19.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "lerc",
             "version": "4.1.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libICE",
             "version": "1.1.2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libSM",
             "version": "1.2.6,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libX11",
             "version": "1.8.13_1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXScrnSaver",
             "version": "1.2.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXau",
             "version": "1.0.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXdmcp",
             "version": "1.1.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXext",
             "version": "1.3.7,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXfixes",
             "version": "6.0.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXft",
             "version": "2.3.8"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXi",
             "version": "1.8.3,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrender",
             "version": "0.9.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXtst",
             "version": "1.2.5"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libavif",
             "version": "1.4.2"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libdaemon",
             "version": "0.14_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdeflate",
             "version": "1.25"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdrm",
             "version": "2.4.133,1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libedit",
             "version": "3.1.20260512,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libevdev",
             "version": "1.13.2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libevent",
             "version": "2.1.13"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libffi",
             "version": "3.7.1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "LGPL21+"
+            ],
             "name": "libgcrypt",
             "version": "1.12.2"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "GPLv2"
+            ],
             "name": "libgpg-error",
             "version": "1.61"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libiconv",
             "version": "1.18_1"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libidn2",
             "version": "2.3.8"
           },
           {
+            "licenses": [
+              "GPLv3+"
+            ],
             "name": "libimagequant",
             "version": "4.4.1_6"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libinotify",
             "version": "20240724_3"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libltdl",
             "version": "2.5.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "GPLv2"
+            ],
             "name": "liblz4",
             "version": "1.10.0_2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libnghttp2",
             "version": "1.69.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libogg",
             "version": "1.3.6,4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libpciaccess",
             "version": "0.19"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libpsl",
             "version": "0.22.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libraqm",
-            "version": "0.10.3"
+            "version": "0.11.0"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libsndfile",
             "version": "1.2.2.20251216"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "libsodium",
             "version": "1.0.22"
           },
           {
+            "licenses": [
+              "LGPL21+",
+              "FFTPAK"
+            ],
             "name": "libsoxr",
             "version": "0.1.3_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libssh2",
             "version": "1.11.1_1,3"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libudev-devd",
             "version": "0.6.0"
           },
           {
+            "licenses": [
+              "GPLv2",
+              "GFDL",
+              "LGPL3+"
+            ],
             "name": "libunistring",
             "version": "1.4.2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libvorbis",
             "version": "1.3.7_2,3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxcb",
             "version": "1.17.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxml2",
             "version": "2.15.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxslt",
             "version": "1.1.45"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libyaml",
             "version": "0.2.5"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libyuv",
             "version": "0.0.1903"
           },
           {
+            "licenses": [
+              "PD",
+              "MIT",
+              "BSD3CLAUSE",
+              "LLVM",
+              "LLVM2",
+              "REGEX"
+            ],
             "name": "llvm19",
             "version": "19.1.7_4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "lua53",
             "version": "5.3.6_1"
           },
           {
+            "licenses": [
+              "LGPL3+"
+            ],
             "name": "mpc",
             "version": "1.4.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "mpdecimal",
             "version": "4.0.1"
           },
           {
+            "licenses": [
+              "LGPL3+"
+            ],
             "name": "mpfr",
             "version": "4.2.2,1"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "mpg123",
             "version": "1.33.6"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "oniguruma",
             "version": "6.9.10"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "openblas",
             "version": "0.3.33,2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "openjpeg",
             "version": "2.5.4_2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "opus",
             "version": "1.6.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "BSD3CLAUSE"
+            ],
             "name": "orc",
             "version": "0.4.42"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "pcre2",
             "version": "10.47_1"
           },
           {
+            "licenses": [
+              "ART10",
+              "GPLv1+"
+            ],
             "name": "perl5",
             "version": "5.42.2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "pkg",
-            "version": "2.8.1"
+            "version": "2.8.1_1"
           },
           {
+            "licenses": [
+              "Libpng"
+            ],
             "name": "png",
             "version": "1.6.58"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "polkit",
             "version": "127"
           },
           {
+            "licenses": [
+              "PostgreSQL"
+            ],
             "name": "postgresql18-client",
             "version": "18.4"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "protobuf",
             "version": "29.6,1"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "pulseaudio",
             "version": "17.0_4"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "py312-PyNaCl",
             "version": "1.6.2_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-annotated-types",
             "version": "0.7.0"
           },
           {
+            "licenses": [
+              "ZLIB"
+            ],
             "name": "py312-apsw",
             "version": "3.53.3.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-attrs",
             "version": "26.1.0"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "py312-backports.zstd",
             "version": "1.6.0"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "py312-bcrypt",
             "version": "5.0.0_7"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "py312-bottleneck",
             "version": "1.6.0_2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-brotli",
             "version": "1.2.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-cffi",
             "version": "2.1.0"
           },
           {
+            "licenses": [
+              "APACHE20",
+              "BSD3CLAUSE"
+            ],
             "name": "py312-cryptography",
             "version": "48.0.1_1,1"
           },
           {
+            "licenses": [
+              "MIT",
+              "PSFL"
+            ],
             "name": "py312-greenlet",
             "version": "3.5.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-jsonschema",
             "version": "4.26.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-jsonschema-specifications",
             "version": "2025.9.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "py312-markupsafe",
             "version": "3.0.3"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "py312-msgpack",
             "version": "1.2.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "py312-msgspec",
             "version": "0.21.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-nh3",
             "version": "0.3.6_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-numexpr",
             "version": "2.14.1_2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "py312-numpy",
             "version": "2.4.6_1,1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "MIT"
+            ],
             "name": "py312-olefile",
             "version": "0.46_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "APACHE20"
+            ],
             "name": "py312-packaging",
             "version": "26.2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "py312-pandas",
             "version": "2.3.3_3,1"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "py312-paramiko",
             "version": "3.5.1_2"
           },
           {
+            "licenses": [
+              "MIT-CMU"
+            ],
             "name": "py312-pillow",
             "version": "11.3.0_2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-pip",
             "version": "23.3.2_4"
           },
           {
+            "licenses": [
+              "LGPL3"
+            ],
             "name": "py312-psycopg2",
             "version": "2.9.12"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "py312-pyarrow",
             "version": "24.0.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "py312-pyasn1",
             "version": "0.6.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "py312-pycparser",
             "version": "2.23"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-pydantic-core",
             "version": "2.46.4_2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-pydantic2",
             "version": "2.13.4"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "py312-python-dateutil",
             "version": "2.9.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-pytz",
             "version": "2026.3,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-pyyaml",
             "version": "6.0.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-referencing",
             "version": "0.37.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-rpds-py",
             "version": "0.30.0_6"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-six",
             "version": "1.17.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-sqlalchemy14",
             "version": "1.4.54_1"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "py312-sqlite3",
             "version": "3.12.13_10"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "py312-tkinter",
             "version": "3.12.13_11"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-tomli-w",
             "version": "1.2.0"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "py312-typing-extensions",
             "version": "4.16.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-typing-inspection",
             "version": "0.4.2"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "py312-tzdata",
             "version": "2026.3"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "py312-watchdog",
             "version": "6.0.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-wheel",
             "version": "0.47.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "py312-zstandard",
             "version": "0.25.0"
           },
@@ -834,86 +1478,150 @@
             "version": "3_4"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "python312",
             "version": "3.12.13_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "re2",
             "version": "20251105"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "readline",
             "version": "8.3.3"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "s2n-tls",
             "version": "1.7.6,1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "s6",
             "version": "2.14.0.1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "shared-mime-info",
             "version": "2.4_2"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "skalibs",
             "version": "2.14.5.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "snappy",
             "version": "1.2.2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "speexdsp",
             "version": "1.2.1"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "sqlite3",
             "version": "3.53.3,1"
           },
           {
+            "licenses": [
+              "TclTk"
+            ],
             "name": "tcl86",
             "version": "8.6.18_1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "thrift",
             "version": "0.22.0,1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "thrift-cpp",
             "version": "0.22.0_1,1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "tiff",
             "version": "4.7.2"
           },
           {
+            "licenses": [
+              "TclTk"
+            ],
             "name": "tk86",
             "version": "8.6.18"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "utf8proc",
             "version": "2.11.3"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE+PATENT"
+            ],
             "name": "vmaf",
             "version": "3.2.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "webp",
             "version": "1.6.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "webrtc-audio-processing",
             "version": "1.3_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "xorgproto",
             "version": "2025.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "GPLv2"
+            ],
             "name": "zstd",
             "version": "1.5.7_2"
           }
@@ -923,50 +1631,62 @@
         "node": [
           {
             "name": "@jupyterlite/app",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-consoles",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-edit",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-lab",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-notebooks",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-repl",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-tree",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/pyodide-kernel-extension",
+            "purl": "",
             "version": "0.5.2"
           },
           {
             "name": "MathJax-grunt-cleaner",
+            "purl": "",
             "version": "0.1.0"
           },
           {
             "name": "jupyterlab-jupytext",
+            "purl": "",
             "version": "1.4.5"
           },
           {
             "name": "jupyterlab_pygments",
+            "purl": "",
             "version": "0.3.0"
           },
           {
             "name": "superset",
+            "purl": "",
             "version": "6.1.0"
           }
         ],
@@ -974,722 +1694,902 @@
         "python": [
           {
             "name": "Deprecated",
+            "purl": "",
             "version": "1.2.18"
           },
           {
             "name": "Flask",
+            "purl": "",
             "version": "2.3.3"
           },
           {
             "name": "Flask-Caching",
+            "purl": "",
             "version": "2.3.1"
           },
           {
             "name": "Flask-Compress",
+            "purl": "",
             "version": "1.17"
           },
           {
             "name": "Flask-JWT-Extended",
+            "purl": "",
             "version": "4.7.1"
           },
           {
             "name": "Flask-Limiter",
+            "purl": "",
             "version": "3.12"
           },
           {
             "name": "Flask-Login",
+            "purl": "",
             "version": "0.6.3"
           },
           {
             "name": "Flask-Migrate",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "Flask-SQLAlchemy",
+            "purl": "",
             "version": "2.5.1"
           },
           {
             "name": "Flask-Session",
+            "purl": "",
             "version": "0.8.0"
           },
           {
             "name": "Flask-WTF",
+            "purl": "",
             "version": "1.2.2"
           },
           {
             "name": "Jinja2",
+            "purl": "",
             "version": "3.1.6"
           },
           {
             "name": "Mako",
+            "purl": "",
             "version": "1.3.10"
           },
           {
             "name": "Markdown",
+            "purl": "",
             "version": "3.8"
           },
           {
             "name": "PyJWT",
+            "purl": "",
             "version": "2.10.1"
           },
           {
             "name": "PyNaCl",
+            "purl": "",
             "version": "1.6.2"
           },
           {
             "name": "PySocks",
+            "purl": "",
             "version": "1.7.1"
           },
           {
             "name": "PyYAML",
+            "purl": "",
             "version": "6.0.3"
           },
           {
             "name": "Pygments",
+            "purl": "",
             "version": "2.19.1"
           },
           {
             "name": "SQLAlchemy-Utils",
+            "purl": "",
             "version": "0.42.0"
           },
           {
             "name": "WTForms",
+            "purl": "",
             "version": "3.2.1"
           },
           {
             "name": "WTForms-JSON",
+            "purl": "",
             "version": "0.3.5"
           },
           {
             "name": "Werkzeug",
+            "purl": "",
             "version": "3.1.6"
           },
           {
             "name": "XlsxWriter",
+            "purl": "",
             "version": "3.0.9"
           },
           {
             "name": "alembic",
+            "purl": "",
             "version": "1.15.2"
           },
           {
             "name": "amqp",
+            "purl": "",
             "version": "5.3.1"
           },
           {
             "name": "annotated-types",
+            "purl": "",
             "version": "0.7.0"
           },
           {
             "name": "apache-superset-core",
+            "purl": "",
             "version": "0.1.0"
           },
           {
             "name": "apache_superset",
+            "purl": "",
             "version": "6.1.0"
           },
           {
             "name": "apispec",
+            "purl": "",
             "version": "6.6.1"
           },
           {
             "name": "apsw",
+            "purl": "",
             "version": "3.53.3.1"
           },
           {
             "name": "async-timeout",
+            "purl": "",
             "version": "4.0.3"
           },
           {
             "name": "attrs",
+            "purl": "",
             "version": "26.1.0"
           },
           {
             "name": "autocommand",
+            "purl": "",
             "version": "2.2.2"
           },
           {
             "name": "babel",
+            "purl": "",
             "version": "2.17.0"
           },
           {
             "name": "backoff",
+            "purl": "",
             "version": "2.2.1"
           },
           {
             "name": "backports.tarfile",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "backports.zstd",
+            "purl": "",
             "version": "1.6.0"
           },
           {
             "name": "bcrypt",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "billiard",
+            "purl": "",
             "version": "4.2.1"
           },
           {
             "name": "blinker",
+            "purl": "",
             "version": "1.9.0"
           },
           {
             "name": "bottleneck",
+            "purl": "",
             "version": "1.6.0"
           },
           {
             "name": "brotli",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "cachelib",
+            "purl": "",
             "version": "0.13.0"
           },
           {
             "name": "cachetools",
+            "purl": "",
             "version": "6.2.1"
           },
           {
             "name": "cattrs",
+            "purl": "",
             "version": "25.1.1"
           },
           {
             "name": "celery",
+            "purl": "",
             "version": "5.5.2"
           },
           {
             "name": "certifi",
+            "purl": "",
             "version": "2025.6.15"
           },
           {
             "name": "cffi",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "charset-normalizer",
+            "purl": "",
             "version": "3.4.2"
           },
           {
             "name": "click",
+            "purl": "",
             "version": "8.2.1"
           },
           {
             "name": "click-didyoumean",
+            "purl": "",
             "version": "0.3.1"
           },
           {
             "name": "click-option-group",
+            "purl": "",
             "version": "0.5.7"
           },
           {
             "name": "click-plugins",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "click-repl",
+            "purl": "",
             "version": "0.3.0"
           },
           {
             "name": "colorama",
+            "purl": "",
             "version": "0.4.6"
           },
           {
             "name": "cron-descriptor",
+            "purl": "",
             "version": "1.4.5"
           },
           {
             "name": "croniter",
+            "purl": "",
             "version": "6.0.0"
           },
           {
             "name": "cryptography",
+            "purl": "",
             "version": "48.0.1"
           },
           {
             "name": "defusedxml",
+            "purl": "",
             "version": "0.7.1"
           },
           {
             "name": "deprecation",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "dnspython",
+            "purl": "",
             "version": "2.7.0"
           },
           {
             "name": "email_validator",
+            "purl": "",
             "version": "2.2.0"
           },
           {
             "name": "et_xmlfile",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "example",
+            "purl": "",
             "version": "21.12"
           },
           {
             "name": "filelock",
+            "purl": "",
             "version": "3.20.3"
           },
           {
             "name": "flask-appbuilder",
+            "purl": "",
             "version": "5.0.2"
           },
           {
             "name": "flask-babel",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "flask-cors",
+            "purl": "",
             "version": "6.0.2"
           },
           {
             "name": "flask-talisman",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "geographiclib",
+            "purl": "",
             "version": "2.0"
           },
           {
             "name": "geopy",
+            "purl": "",
             "version": "2.4.1"
           },
           {
             "name": "google-auth",
+            "purl": "",
             "version": "2.43.0"
           },
           {
             "name": "greenlet",
+            "purl": "",
             "version": "3.5.3"
           },
           {
             "name": "gunicorn",
+            "purl": "",
             "version": "23.0.0"
           },
           {
             "name": "h11",
+            "purl": "",
             "version": "0.16.0"
           },
           {
             "name": "hashids",
+            "purl": "",
             "version": "1.3.1"
           },
           {
             "name": "holidays",
+            "purl": "",
             "version": "0.82"
           },
           {
             "name": "humanize",
+            "purl": "",
             "version": "4.12.3"
           },
           {
             "name": "idna",
+            "purl": "",
             "version": "3.10"
           },
           {
             "name": "importlib_metadata",
+            "purl": "",
             "version": "8.0.0"
           },
           {
             "name": "inflect",
+            "purl": "",
             "version": "7.3.1"
           },
           {
             "name": "isodate",
+            "purl": "",
             "version": "0.7.2"
           },
           {
             "name": "itsdangerous",
+            "purl": "",
             "version": "2.2.0"
           },
           {
             "name": "jaraco.collections",
+            "purl": "",
             "version": "5.1.0"
           },
           {
             "name": "jaraco.context",
+            "purl": "",
             "version": "5.3.0"
           },
           {
             "name": "jaraco.functools",
+            "purl": "",
             "version": "4.0.1"
           },
           {
             "name": "jaraco.text",
+            "purl": "",
             "version": "3.12.1"
           },
           {
             "name": "jsonpath-ng",
+            "purl": "",
             "version": "1.7.0"
           },
           {
             "name": "jsonschema",
+            "purl": "",
             "version": "4.26.0"
           },
           {
             "name": "jsonschema-specifications",
+            "purl": "",
             "version": "2025.9.1"
           },
           {
             "name": "kombu",
+            "purl": "",
             "version": "5.5.3"
           },
           {
             "name": "limits",
+            "purl": "",
             "version": "5.1.0"
           },
           {
             "name": "markdown-it-py",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "markupsafe",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "marshmallow",
+            "purl": "",
             "version": "3.26.2"
           },
           {
             "name": "marshmallow-sqlalchemy",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "marshmallow-union",
+            "purl": "",
             "version": "0.1.15"
           },
           {
             "name": "mdurl",
+            "purl": "",
             "version": "0.1.2"
           },
           {
             "name": "more-itertools",
+            "purl": "",
             "version": "10.3.0"
           },
           {
             "name": "msgpack",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "msgspec",
+            "purl": "",
             "version": "0.21.1"
           },
           {
             "name": "my-test-package",
+            "purl": "",
             "version": "1.0"
           },
           {
             "name": "nh3",
+            "purl": "",
             "version": "0.3.6"
           },
           {
             "name": "numexpr",
+            "purl": "",
             "version": "2.14.1"
           },
           {
             "name": "numpy",
+            "purl": "",
             "version": "2.4.6"
           },
           {
             "name": "odfpy",
+            "purl": "",
             "version": "1.4.1"
           },
           {
             "name": "olefile",
+            "purl": "",
             "version": "0.46"
           },
           {
             "name": "openapi-schema-validator",
+            "purl": "",
             "version": "0.6.3"
           },
           {
             "name": "openpyxl",
+            "purl": "",
             "version": "3.1.5"
           },
           {
             "name": "ordered-set",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "outcome",
+            "purl": "",
             "version": "1.3.0.post0"
           },
           {
             "name": "packaging",
+            "purl": "",
             "version": "24.2"
           },
           {
             "name": "pandas",
+            "purl": "",
             "version": "2.3.3"
           },
           {
             "name": "paramiko",
+            "purl": "",
             "version": "3.5.1"
           },
           {
             "name": "parsedatetime",
+            "purl": "",
             "version": "2.6"
           },
           {
             "name": "pgsanity",
+            "purl": "",
             "version": "0.2.9"
           },
           {
             "name": "pillow",
+            "purl": "",
             "version": "11.3.0"
           },
           {
             "name": "pip",
+            "purl": "",
             "version": "23.3.2"
           },
           {
             "name": "platformdirs",
+            "purl": "",
             "version": "4.2.2"
           },
           {
             "name": "ply",
+            "purl": "",
             "version": "3.11"
           },
           {
             "name": "polyline",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "prison",
+            "purl": "",
             "version": "0.2.1"
           },
           {
             "name": "prompt_toolkit",
+            "purl": "",
             "version": "3.0.51"
           },
           {
             "name": "psycopg2",
+            "purl": "",
             "version": "2.9.12"
           },
           {
             "name": "pyOpenSSL",
+            "purl": "",
             "version": "25.3.0"
           },
           {
             "name": "pyarrow",
+            "purl": "",
             "version": "24.0.0"
           },
           {
             "name": "pyasn1",
+            "purl": "",
             "version": "0.6.0"
           },
           {
             "name": "pyasn1_modules",
+            "purl": "",
             "version": "0.4.2"
           },
           {
             "name": "pycparser",
+            "purl": "",
             "version": "2.23"
           },
           {
             "name": "pydantic",
+            "purl": "",
             "version": "2.13.4"
           },
           {
             "name": "pydantic_core",
+            "purl": "",
             "version": "2.46.4"
           },
           {
             "name": "pygeohash",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "pyparsing",
+            "purl": "",
             "version": "3.2.3"
           },
           {
             "name": "python-dateutil",
+            "purl": "",
             "version": "2.9.0"
           },
           {
             "name": "python-dotenv",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "pytz",
+            "purl": "",
             "version": "2026.3"
           },
           {
             "name": "pyxlsb",
+            "purl": "",
             "version": "1.0.10"
           },
           {
             "name": "redis",
+            "purl": "",
             "version": "5.3.1"
           },
           {
             "name": "referencing",
+            "purl": "",
             "version": "0.37.0"
           },
           {
             "name": "requests",
+            "purl": "",
             "version": "2.32.4"
           },
           {
             "name": "requests-cache",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "rfc3339-validator",
+            "purl": "",
             "version": "0.1.4"
           },
           {
             "name": "rich",
+            "purl": "",
             "version": "13.9.4"
           },
           {
             "name": "rpds-py",
+            "purl": "",
             "version": "0.30.0"
           },
           {
             "name": "rsa",
+            "purl": "",
             "version": "4.9.1"
           },
           {
             "name": "selenium",
+            "purl": "",
             "version": "4.32.0"
           },
           {
             "name": "setuptools",
+            "purl": "",
             "version": "80.9.0"
           },
           {
             "name": "shillelagh",
+            "purl": "",
             "version": "1.4.3"
           },
           {
             "name": "simplejson",
+            "purl": "",
             "version": "3.20.1"
           },
           {
             "name": "six",
+            "purl": "",
             "version": "1.17.0"
           },
           {
             "name": "slack_sdk",
+            "purl": "",
             "version": "3.35.0"
           },
           {
             "name": "sniffio",
+            "purl": "",
             "version": "1.3.1"
           },
           {
             "name": "sortedcontainers",
+            "purl": "",
             "version": "2.4.0"
           },
           {
             "name": "sqlalchemy",
+            "purl": "",
             "version": "1.4.54"
           },
           {
             "name": "sqlglot",
+            "purl": "",
             "version": "28.10.0"
           },
           {
             "name": "sqlite3",
+            "purl": "",
             "version": "3.12.13"
           },
           {
             "name": "sshtunnel",
+            "purl": "",
             "version": "0.4.0"
           },
           {
             "name": "tabulate",
+            "purl": "",
             "version": "0.9.0"
           },
           {
             "name": "tkinter",
+            "purl": "",
             "version": "3.12.13"
           },
           {
             "name": "tomli",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "tomli_w",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "trio",
+            "purl": "",
             "version": "0.30.0"
           },
           {
             "name": "trio-websocket",
+            "purl": "",
             "version": "0.12.2"
           },
           {
             "name": "typeguard",
+            "purl": "",
             "version": "4.3.0"
           },
           {
             "name": "typing-inspection",
+            "purl": "",
             "version": "0.4.2"
           },
           {
             "name": "typing_extensions",
+            "purl": "",
             "version": "4.12.2"
           },
           {
             "name": "tzdata",
+            "purl": "",
             "version": "2026.3"
           },
           {
             "name": "url-normalize",
+            "purl": "",
             "version": "2.2.1"
           },
           {
             "name": "urllib3",
+            "purl": "",
             "version": "2.6.3"
           },
           {
             "name": "vine",
+            "purl": "",
             "version": "5.1.0"
           },
           {
             "name": "watchdog",
+            "purl": "",
             "version": "6.0.0"
           },
           {
             "name": "wcwidth",
+            "purl": "",
             "version": "0.2.13"
           },
           {
             "name": "websocket-client",
+            "purl": "",
             "version": "1.8.0"
           },
           {
             "name": "wheel",
+            "purl": "",
             "version": "0.45.1"
           },
           {
             "name": "wrapt",
+            "purl": "",
             "version": "1.17.2"
           },
           {
             "name": "wsproto",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "xlrd",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "zipp",
+            "purl": "",
             "version": "3.19.2"
           },
           {
             "name": "zstandard",
+            "purl": "",
             "version": "0.25.0"
           }
         ],
