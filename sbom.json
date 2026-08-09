@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-01T23:33:45Z",
+  "generated": "2026-08-09T09:49:26Z",
   "image": "superset",
   "tags": {
     "latest": {
       "app_version": "6.1.0",
       "arch": "amd64",
-      "generated": "2026-08-01T23:26:10Z",
+      "generated": "2026-08-09T09:45:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -329,21 +329,21 @@
               "APACHE20"
             ],
             "name": "aws-c-mqtt",
-            "version": "0.16.0"
+            "version": "0.16.1"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-s3",
-            "version": "0.13.3"
+            "version": "0.13.4"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-sdkutils",
-            "version": "0.2.8"
+            "version": "0.2.9"
           },
           {
             "licenses": [
@@ -357,7 +357,7 @@
               "APACHE20"
             ],
             "name": "aws-crt-cpp",
-            "version": "0.43.1"
+            "version": "0.43.3"
           },
           {
             "licenses": [
@@ -414,7 +414,7 @@
               "GPLv2"
             ],
             "name": "consolekit2",
-            "version": "2.0.0_1"
+            "version": "2.0.0_2"
           },
           {
             "licenses": [
@@ -612,7 +612,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.409,1"
+            "version": "0.410,1"
           },
           {
             "licenses": [
@@ -947,7 +947,7 @@
               "BSD2CLAUSE"
             ],
             "name": "libudev-devd",
-            "version": "0.6.0"
+            "version": "0.7.0"
           },
           {
             "licenses": [
@@ -1045,7 +1045,7 @@
               "LGPL21"
             ],
             "name": "mpg123",
-            "version": "1.33.6"
+            "version": "1.33.7"
           },
           {
             "licenses": [
@@ -1096,7 +1096,7 @@
               "GPLv1+"
             ],
             "name": "perl5",
-            "version": "5.42.2"
+            "version": "5.42.3"
           },
           {
             "licenses": [
@@ -1503,7 +1503,7 @@
               "APACHE20"
             ],
             "name": "s2n-tls",
-            "version": "1.7.6,1"
+            "version": "1.7.7,1"
           },
           {
             "licenses": [

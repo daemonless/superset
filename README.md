@@ -86,7 +86,7 @@ services:
     name: superset
     options:
       - container: 'boot args:--pull'
-      - expose: '8088:8088 proto:tcp' \
+      - expose: '8088:8088 proto:tcp'
     oci:
       user: root
       environment:
