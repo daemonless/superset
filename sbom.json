@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-09T09:49:26Z",
+  "generated": "2026-08-19T22:32:58Z",
   "image": "superset",
   "tags": {
     "latest": {
       "app_version": "6.1.0",
       "arch": "amd64",
-      "generated": "2026-08-09T09:45:25Z",
+      "generated": "2026-08-19T22:29:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -294,7 +294,7 @@
               "APACHE20"
             ],
             "name": "aws-c-common",
-            "version": "0.14.4,1"
+            "version": "0.14.5,1"
           },
           {
             "licenses": [
@@ -322,7 +322,7 @@
               "APACHE20"
             ],
             "name": "aws-c-io",
-            "version": "0.27.5"
+            "version": "0.27.6"
           },
           {
             "licenses": [
@@ -336,7 +336,7 @@
               "APACHE20"
             ],
             "name": "aws-c-s3",
-            "version": "0.13.4"
+            "version": "0.13.5"
           },
           {
             "licenses": [
@@ -357,14 +357,14 @@
               "APACHE20"
             ],
             "name": "aws-crt-cpp",
-            "version": "0.43.3"
+            "version": "0.43.5"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-sdk-cpp",
-            "version": "1.11.855"
+            "version": "1.11.866"
           },
           {
             "licenses": [
@@ -386,7 +386,7 @@
               "BSL"
             ],
             "name": "boost-libs",
-            "version": "1.89.0_3"
+            "version": "1.91.0"
           },
           {
             "licenses": [
@@ -517,7 +517,7 @@
               "GPLv3RLE"
             ],
             "name": "gcc14",
-            "version": "14.2.0_6"
+            "version": "14.2.0_7"
           },
           {
             "licenses": [
@@ -560,7 +560,7 @@
               "LGPL20"
             ],
             "name": "glib",
-            "version": "2.86.4,2"
+            "version": "2.88.3,2"
           },
           {
             "licenses": [
@@ -740,7 +740,7 @@
               "MIT"
             ],
             "name": "libXft",
-            "version": "2.3.8"
+            "version": "2.3.9"
           },
           {
             "licenses": [
@@ -789,7 +789,7 @@
               "MIT"
             ],
             "name": "libdrm",
-            "version": "2.4.133,1"
+            "version": "2.4.134,1"
           },
           {
             "licenses": [
@@ -817,7 +817,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -1059,7 +1059,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openblas",
-            "version": "0.3.33,2"
+            "version": "0.3.34_1,2"
           },
           {
             "licenses": [
@@ -1103,7 +1103,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.1_1"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -1124,7 +1124,7 @@
               "PostgreSQL"
             ],
             "name": "postgresql18-client",
-            "version": "18.4"
+            "version": "18.6"
           },
           {
             "licenses": [
@@ -1338,7 +1338,7 @@
               "BSD2CLAUSE"
             ],
             "name": "py312-pyasn1",
-            "version": "0.6.0"
+            "version": "0.6.4"
           },
           {
             "licenses": [
@@ -1415,14 +1415,14 @@
               "PSFL"
             ],
             "name": "py312-sqlite3",
-            "version": "3.12.13_10"
+            "version": "3.12.14_10"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "py312-tkinter",
-            "version": "3.12.13_11"
+            "version": "3.12.14_11"
           },
           {
             "licenses": [
@@ -1464,7 +1464,7 @@
               "MIT"
             ],
             "name": "py312-wheel",
-            "version": "0.47.0"
+            "version": "0.48.0"
           },
           {
             "licenses": [
@@ -1482,7 +1482,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_3"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -2330,7 +2330,7 @@
           {
             "name": "pyasn1",
             "purl": "",
-            "version": "0.6.0"
+            "version": "0.6.4"
           },
           {
             "name": "pyasn1_modules",
@@ -2475,7 +2475,7 @@
           {
             "name": "sqlite3",
             "purl": "",
-            "version": "3.12.13"
+            "version": "3.12.14"
           },
           {
             "name": "sshtunnel",
@@ -2490,7 +2490,7 @@
           {
             "name": "tkinter",
             "purl": "",
-            "version": "3.12.13"
+            "version": "3.12.14"
           },
           {
             "name": "tomli",
