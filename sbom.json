@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-19T22:32:58Z",
+  "generated": "2026-08-31T22:30:26Z",
   "image": "superset",
   "tags": {
     "latest": {
       "app_version": "6.1.0",
       "arch": "amd64",
-      "generated": "2026-08-19T22:29:38Z",
+      "generated": "2026-08-31T22:22:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -161,7 +161,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -259,7 +259,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.14.1_1"
+            "version": "3.15.0"
           },
           {
             "licenses": [
@@ -280,7 +280,7 @@
               "APACHE20"
             ],
             "name": "aws-c-auth",
-            "version": "0.10.4"
+            "version": "0.10.5"
           },
           {
             "licenses": [
@@ -301,56 +301,56 @@
               "APACHE20"
             ],
             "name": "aws-c-compression",
-            "version": "0.3.2"
+            "version": "0.3.3"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-event-stream",
-            "version": "0.7.1,1"
+            "version": "0.7.2,1"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-http",
-            "version": "0.11.0"
+            "version": "0.11.1"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-io",
-            "version": "0.27.6"
+            "version": "0.27.7"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-mqtt",
-            "version": "0.16.1"
+            "version": "0.16.2"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-s3",
-            "version": "0.13.5"
+            "version": "0.13.7"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-sdkutils",
-            "version": "0.2.9"
+            "version": "0.2.10"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-checksums",
-            "version": "0.2.10,1"
+            "version": "0.2.11,1"
           },
           {
             "licenses": [
@@ -364,7 +364,7 @@
               "APACHE20"
             ],
             "name": "aws-sdk-cpp",
-            "version": "1.11.866"
+            "version": "1.11.873"
           },
           {
             "licenses": [
@@ -407,7 +407,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -463,7 +463,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "licenses": [
@@ -883,7 +883,7 @@
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.69.0"
+            "version": "1.70.0"
           },
           {
             "licenses": [
@@ -904,7 +904,7 @@
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.22.0"
+            "version": "0.23.3"
           },
           {
             "licenses": [
@@ -1201,7 +1201,7 @@
               "MIT"
             ],
             "name": "py312-cffi",
-            "version": "2.1.0"
+            "version": "2.1.1"
           },
           {
             "licenses": [
@@ -1209,7 +1209,7 @@
               "BSD3CLAUSE"
             ],
             "name": "py312-cryptography",
-            "version": "48.0.1_1,1"
+            "version": "49.0.0,1"
           },
           {
             "licenses": [
@@ -1259,14 +1259,14 @@
               "MIT"
             ],
             "name": "py312-nh3",
-            "version": "0.3.6_1"
+            "version": "0.3.7"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "py312-numexpr",
-            "version": "2.14.1_2"
+            "version": "2.14.2"
           },
           {
             "licenses": [
@@ -1281,7 +1281,7 @@
               "MIT"
             ],
             "name": "py312-olefile",
-            "version": "0.46_1"
+            "version": "0.47"
           },
           {
             "licenses": [
@@ -1380,7 +1380,7 @@
               "MIT"
             ],
             "name": "py312-pyyaml",
-            "version": "6.0.3"
+            "version": "6.0.3_1"
           },
           {
             "licenses": [
@@ -1503,7 +1503,7 @@
               "APACHE20"
             ],
             "name": "s2n-tls",
-            "version": "1.7.7,1"
+            "version": "1.7.8,1"
           },
           {
             "licenses": [
@@ -1545,7 +1545,7 @@
               "PD"
             ],
             "name": "sqlite3",
-            "version": "3.53.3,1"
+            "version": "3.53.4,1"
           },
           {
             "licenses": [
@@ -1778,11 +1778,6 @@
             "version": "1.7.1"
           },
           {
-            "name": "PyYAML",
-            "purl": "",
-            "version": "6.0.3"
-          },
-          {
             "name": "Pygments",
             "purl": "",
             "version": "2.19.1"
@@ -1935,7 +1930,7 @@
           {
             "name": "cffi",
             "purl": "",
-            "version": "2.1.0"
+            "version": "2.1.1"
           },
           {
             "name": "charset-normalizer",
@@ -1985,7 +1980,7 @@
           {
             "name": "cryptography",
             "purl": "",
-            "version": "48.0.1"
+            "version": "49.0.0"
           },
           {
             "name": "defusedxml",
@@ -2210,12 +2205,12 @@
           {
             "name": "nh3",
             "purl": "",
-            "version": "0.3.6"
+            "version": "0.3.7"
           },
           {
             "name": "numexpr",
             "purl": "",
-            "version": "2.14.1"
+            "version": "2.14.2"
           },
           {
             "name": "numpy",
@@ -2230,7 +2225,7 @@
           {
             "name": "olefile",
             "purl": "",
-            "version": "0.46"
+            "version": "0.47"
           },
           {
             "name": "openapi-schema-validator",
@@ -2381,6 +2376,11 @@
             "name": "pyxlsb",
             "purl": "",
             "version": "1.0.10"
+          },
+          {
+            "name": "pyyaml",
+            "purl": "",
+            "version": "6.0.3"
           },
           {
             "name": "redis",

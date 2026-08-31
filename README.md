@@ -51,8 +51,11 @@ services:
       - "8088:8088"
     healthcheck:
       test: ["CMD", "{'port': 8088, 'path': '/health'}"]
-    restart: unless-stopped
+    # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
+    restart: always
 ```
+
+Save as `compose.yaml`, then run `podman-compose up -d`.
 
 ### AppJail Director
 **.env**:
@@ -117,6 +120,9 @@ ARG tag=latest
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/superset:${tag}
 ```
+
+Save the files above, then run `appjail-director up`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
@@ -138,6 +144,8 @@ podman run -d --name superset \
   -v /path/to/containers/superset:/config \
   ghcr.io/daemonless/superset:latest
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
 
 ### AppJail
 
@@ -161,7 +169,52 @@ appjail oci run -Pd \
   -o fstab="/path/to/containers/superset /config <pseudofs>" \
   ghcr.io/daemonless/superset:latest superset
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
+
+### Bastille
+
+> [!WARNING]
+> Bastille's OCI support is **experimental**. It requires `buildah`, shares the host network stack (`inherit`), and persists image-declared volumes under `--data-path`.
+
+```yaml
+services:
+  superset:
+    image: "ghcr.io/daemonless/superset:latest"
+    container_name: superset
+    network_mode: host  # jail shares host networking
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - SUPERSET_SECRET_KEY=<SUPERSET_SECRET_KEY>
+      - SUPERSET_ADMIN_USERNAME=
+      - SUPERSET_ADMIN_PASSWORD=<SUPERSET_ADMIN_PASSWORD>
+      - SUPERSET_ADMIN_EMAIL=
+      - SUPERSET_WORKERS=
+      - DATABASE_URL=
+      - REDIS_URL=
+```
+
+Save as `podman-compose.yml`, then run `bastille up`. Or via CLI:
+
+```bash
+bastille create -O \
+  --env PUID=1000 \
+  --env PGID=1000 \
+  --env TZ=UTC \
+  --env SUPERSET_SECRET_KEY=<SUPERSET_SECRET_KEY> \
+  --env SUPERSET_ADMIN_USERNAME= \
+  --env SUPERSET_ADMIN_PASSWORD=<SUPERSET_ADMIN_PASSWORD> \
+  --env SUPERSET_ADMIN_EMAIL= \
+  --env SUPERSET_WORKERS= \
+  --env DATABASE_URL= \
+  --env REDIS_URL= \
+  --data-path /path/to/containers/superset \
+  superset ghcr.io/daemonless/superset:latest inherit
+```
 
 ### Ansible
 
@@ -188,6 +241,8 @@ appjail oci run -Pd \
     volumes:
       - "/path/to/containers/superset:/config"
 ```
+
+Save as `superset-deploy.yaml`, then run `ansible-playbook superset-deploy.yaml`.
 
 Access at: `http://localhost:8088`
 
