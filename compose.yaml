@@ -72,7 +72,9 @@ x-daemonless:
       SUPERSET_ADMIN_EMAIL: "Admin email (default: admin@example.com)"
       SUPERSET_WORKERS: "Gunicorn worker count (default: 2)"
       DATABASE_URL: "Metadata database URI (default: sqlite:////config/superset.db)"
-      REDIS_URL: "Optional Redis URL for caching"
+      REDIS_URL:
+        desc: "Redis URL for caching"
+        optional: true
     volumes:
       /config: "Superset home: metadata DB, secret key, uploads"
     ports:
