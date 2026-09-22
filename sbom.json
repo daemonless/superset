@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-19T10:39:46Z",
+  "generated": "2026-09-22T23:43:04Z",
   "image": "superset",
   "tags": {
     "latest": {
       "app_version": "6.1.0",
       "arch": "amd64",
-      "generated": "2026-09-19T10:35:55Z",
+      "generated": "2026-09-22T23:40:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -350,7 +350,7 @@
               "APACHE20"
             ],
             "name": "aws-c-s3",
-            "version": "1.1.1"
+            "version": "1.1.2"
           },
           {
             "licenses": [
@@ -371,7 +371,7 @@
               "APACHE20"
             ],
             "name": "aws-crt-cpp",
-            "version": "0.43.6"
+            "version": "0.43.7"
           },
           {
             "licenses": [
@@ -1231,7 +1231,7 @@
               "PSFL"
             ],
             "name": "py312-greenlet",
-            "version": "3.5.5"
+            "version": "3.5.6"
           },
           {
             "licenses": [
@@ -1510,7 +1510,7 @@
               "GPLv3"
             ],
             "name": "readline",
-            "version": "8.3.3"
+            "version": "8.3.6"
           },
           {
             "licenses": [
@@ -2069,7 +2069,7 @@
           {
             "name": "greenlet",
             "purl": "",
-            "version": "3.5.5"
+            "version": "3.5.6"
           },
           {
             "name": "gunicorn",
