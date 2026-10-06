@@ -47,7 +47,7 @@ services:
       - DATABASE_URL=  # Metadata database URI (default: sqlite:////config/superset.db)
       - REDIS_URL=  # Redis URL for caching
     volumes:
-      - "/path/to/containers/superset:/config"
+      - "/containers/superset:/config"
     ports:
       - "8088:8088"
     healthcheck:
@@ -108,7 +108,7 @@ services:
       - superset: /config
 volumes:
   superset:
-    device: '/path/to/containers/superset'
+    device: '/containers/superset'
 ```
 
 **Makejail**:
@@ -124,60 +124,6 @@ OPTION from=ghcr.io/daemonless/superset:${tag}
 ```
 
 Save the files above, then run `appjail-director up`.
-
-
-> [!WARNING]
-> Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the jail's IPv4 address or hostname assigned by the virtual network.
->
-> To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
-
-### Podman CLI
-
-```bash
-podman run -d --name superset \
-  -p 8088:8088 \
-  --health-cmd {'port': 8088, 'path': '/health'} \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -e SUPERSET_SECRET_KEY=<SUPERSET_SECRET_KEY> \
-  -e SUPERSET_ADMIN_USERNAME= \
-  -e SUPERSET_ADMIN_PASSWORD=<SUPERSET_ADMIN_PASSWORD> \
-  -e SUPERSET_ADMIN_EMAIL= \
-  -e SUPERSET_WORKERS= \
-  -e DATABASE_URL= \
-  -e REDIS_URL= \
-  -v /path/to/containers/superset:/config \
-  ghcr.io/daemonless/superset:latest
-```
-
-Save as `run.sh`, then run `sh run.sh`.
-
-### AppJail
-
-
-```bash
-appjail oci run -Pd \
-  -o overwrite=force \
-  -o container="args:--pull" \
-  -o virtualnet=":<random> default" \
-  -o nat \
-  -o expose="8088:8088 proto:tcp" \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -e SUPERSET_SECRET_KEY=<SUPERSET_SECRET_KEY> \
-  -e SUPERSET_ADMIN_USERNAME= \
-  -e SUPERSET_ADMIN_PASSWORD=<SUPERSET_ADMIN_PASSWORD> \
-  -e SUPERSET_ADMIN_EMAIL= \
-  -e SUPERSET_WORKERS= \
-  -e DATABASE_URL= \
-  -e REDIS_URL= \
-  -o fstab="/path/to/containers/superset /config <pseudofs>" \
-  ghcr.io/daemonless/superset:latest superset
-```
-
-Save the files above, then run `sh run.sh`.
 
 
 > [!WARNING]
@@ -209,54 +155,10 @@ services:
       - DATABASE_URL=
       - REDIS_URL=
     volumes:
-      - "/path/to/containers/superset:/config"
+      - "/containers/superset:/config"
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
-
-```bash
-bastille create -O \
-  --env PUID=1000 \
-  --env PGID=1000 \
-  --env TZ=UTC \
-  --env SUPERSET_SECRET_KEY=<SUPERSET_SECRET_KEY> \
-  --env SUPERSET_ADMIN_USERNAME= \
-  --env SUPERSET_ADMIN_PASSWORD=<SUPERSET_ADMIN_PASSWORD> \
-  --env SUPERSET_ADMIN_EMAIL= \
-  --env SUPERSET_WORKERS= \
-  --env DATABASE_URL= \
-  --env REDIS_URL= \
-  --volume /path/to/containers/superset /config \
-  superset ghcr.io/daemonless/superset:latest inherit
-```
-
-### Ansible
-
-```yaml
-- name: Deploy superset
-  containers.podman.podman_container:
-    name: superset
-    image: "ghcr.io/daemonless/superset:latest"
-    state: started
-    restart_policy: always
-    env:
-      PUID: "1000"
-      PGID: "1000"
-      TZ: "UTC"
-      SUPERSET_SECRET_KEY: "<SUPERSET_SECRET_KEY>"
-      SUPERSET_ADMIN_USERNAME: ""
-      SUPERSET_ADMIN_PASSWORD: "<SUPERSET_ADMIN_PASSWORD>"
-      SUPERSET_ADMIN_EMAIL: ""
-      SUPERSET_WORKERS: ""
-      DATABASE_URL: ""
-      REDIS_URL: ""
-    ports:
-      - "8088:8088"
-    volumes:
-      - "/path/to/containers/superset:/config"
-```
-
-Save as `superset-deploy.yaml`, then run `ansible-playbook superset-deploy.yaml`.
+Save as `bastille-compose.yml`, then run `bastille up`.
 
 Access at: `http://localhost:8088`
 

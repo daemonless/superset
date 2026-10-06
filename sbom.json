@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-22T23:43:04Z",
+  "generated": "2026-10-06T22:56:32Z",
   "image": "superset",
   "tags": {
     "latest": {
       "app_version": "6.1.0",
       "arch": "amd64",
-      "generated": "2026-09-22T23:40:01Z",
+      "generated": "2026-10-06T22:52:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -49,7 +49,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -273,14 +273,14 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.0"
+            "version": "3.15.1"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "arrow",
-            "version": "24.0.0_4"
+            "version": "24.0.0_5"
           },
           {
             "licenses": [
@@ -308,7 +308,7 @@
               "APACHE20"
             ],
             "name": "aws-c-common",
-            "version": "1.0.0,1"
+            "version": "1.0.2,1"
           },
           {
             "licenses": [
@@ -350,7 +350,7 @@
               "APACHE20"
             ],
             "name": "aws-c-s3",
-            "version": "1.1.2"
+            "version": "1.3.0"
           },
           {
             "licenses": [
@@ -364,21 +364,21 @@
               "APACHE20"
             ],
             "name": "aws-checksums",
-            "version": "1.0.0,1"
+            "version": "1.0.1,1"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-crt-cpp",
-            "version": "0.43.7"
+            "version": "0.43.8"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-sdk-cpp",
-            "version": "1.11.891"
+            "version": "1.11.901"
           },
           {
             "licenses": [
@@ -400,7 +400,7 @@
               "BSL"
             ],
             "name": "boost-libs",
-            "version": "1.91.0"
+            "version": "1.92.0"
           },
           {
             "licenses": [
@@ -456,7 +456,7 @@
               "GPLv2+"
             ],
             "name": "dbus-glib",
-            "version": "0.114"
+            "version": "0.116"
           },
           {
             "licenses": [
@@ -523,7 +523,7 @@
               "LGPL21"
             ],
             "name": "fribidi",
-            "version": "1.0.16"
+            "version": "1.0.17"
           },
           {
             "licenses": [
@@ -882,7 +882,7 @@
               "LGPL21"
             ],
             "name": "libltdl",
-            "version": "2.5.4"
+            "version": "2.6.2"
           },
           {
             "licenses": [
@@ -1102,7 +1102,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.48"
+            "version": "10.49"
           },
           {
             "licenses": [
@@ -1359,7 +1359,7 @@
               "BSD3CLAUSE"
             ],
             "name": "py312-pycparser",
-            "version": "2.23"
+            "version": "3.0"
           },
           {
             "licenses": [
@@ -1408,7 +1408,7 @@
               "MIT"
             ],
             "name": "py312-rpds-py",
-            "version": "0.30.0_7"
+            "version": "2026.6.3"
           },
           {
             "licenses": [
@@ -1457,7 +1457,7 @@
               "MIT"
             ],
             "name": "py312-typing-inspection",
-            "version": "0.4.4"
+            "version": "0.4.4_1"
           },
           {
             "licenses": [
@@ -1496,7 +1496,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14"
+            "version": "3.12.14_1"
           },
           {
             "licenses": [
@@ -1517,7 +1517,7 @@
               "APACHE20"
             ],
             "name": "s2n-tls",
-            "version": "1.7.10,1"
+            "version": "1.7.11,1"
           },
           {
             "licenses": [
@@ -1545,7 +1545,7 @@
               "BSD3CLAUSE"
             ],
             "name": "snappy",
-            "version": "1.2.2"
+            "version": "1.3.1"
           },
           {
             "licenses": [
@@ -1580,7 +1580,7 @@
               "APACHE20"
             ],
             "name": "thrift-cpp",
-            "version": "0.22.0_1,1"
+            "version": "0.22.0_2,1"
           },
           {
             "licenses": [
@@ -1601,7 +1601,7 @@
               "MIT"
             ],
             "name": "utf8proc",
-            "version": "2.11.3"
+            "version": "2.12.0"
           },
           {
             "licenses": [
@@ -2349,7 +2349,7 @@
           {
             "name": "pycparser",
             "purl": "",
-            "version": "2.23"
+            "version": "3.0"
           },
           {
             "name": "pydantic",
@@ -2429,7 +2429,7 @@
           {
             "name": "rpds-py",
             "purl": "",
-            "version": "0.30.0"
+            "version": "2026.6.3"
           },
           {
             "name": "rsa",
