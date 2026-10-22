@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-11T15:34:57Z",
+  "generated": "2026-10-22T00:09:41Z",
   "image": "superset",
   "tags": {
     "latest": {
       "app_version": "6.1.0",
       "arch": "amd64",
-      "generated": "2026-10-11T15:32:09Z",
+      "generated": "2026-10-22T00:06:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -203,7 +203,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -294,7 +294,7 @@
               "APACHE20"
             ],
             "name": "aws-c-auth",
-            "version": "1.0.0"
+            "version": "1.0.1"
           },
           {
             "licenses": [
@@ -308,7 +308,7 @@
               "APACHE20"
             ],
             "name": "aws-c-common",
-            "version": "1.0.2,1"
+            "version": "1.0.3,1"
           },
           {
             "licenses": [
@@ -329,28 +329,28 @@
               "APACHE20"
             ],
             "name": "aws-c-http",
-            "version": "1.0.0"
+            "version": "1.1.1"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-io",
-            "version": "1.0.0"
+            "version": "1.1.0"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-mqtt",
-            "version": "1.0.0"
+            "version": "1.1.2"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-c-s3",
-            "version": "1.3.0"
+            "version": "1.3.1"
           },
           {
             "licenses": [
@@ -371,14 +371,14 @@
               "APACHE20"
             ],
             "name": "aws-crt-cpp",
-            "version": "0.43.8"
+            "version": "0.44.0"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "aws-sdk-cpp",
-            "version": "1.11.901"
+            "version": "1.11.912"
           },
           {
             "licenses": [
@@ -421,7 +421,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -477,21 +477,21 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.5"
+            "version": "2.9.0"
           },
           {
             "licenses": [
               "GPLv2+"
             ],
             "name": "fftw3",
-            "version": "3.3.10_5"
+            "version": "3.3.11"
           },
           {
             "licenses": [
               "GPLv2+"
             ],
             "name": "fftw3-float",
-            "version": "3.3.10_5"
+            "version": "3.3.11"
           },
           {
             "licenses": [
@@ -508,7 +508,7 @@
               "MIT"
             ],
             "name": "fontconfig",
-            "version": "2.17.1,1"
+            "version": "2.18.3,1"
           },
           {
             "licenses": [
@@ -604,7 +604,7 @@
               "GPLv2"
             ],
             "name": "graphite2",
-            "version": "1.3.15"
+            "version": "1.3.15_1"
           },
           {
             "licenses": [
@@ -618,7 +618,7 @@
               "MIT"
             ],
             "name": "harfbuzz",
-            "version": "14.2.1"
+            "version": "14.6.0"
           },
           {
             "licenses": [
@@ -626,7 +626,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.411,1"
+            "version": "0.412,1"
           },
           {
             "licenses": [
@@ -712,7 +712,7 @@
               "MIT"
             ],
             "name": "libX11",
-            "version": "1.8.13_1,1"
+            "version": "1.8.14,1"
           },
           {
             "licenses": [
@@ -761,21 +761,21 @@
               "MIT"
             ],
             "name": "libXi",
-            "version": "1.8.3,1"
+            "version": "1.8.4,1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libXrender",
-            "version": "0.9.12"
+            "version": "0.9.13"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libXtst",
-            "version": "1.2.5"
+            "version": "1.2.6"
           },
           {
             "licenses": [
@@ -868,7 +868,7 @@
               "GPLv3+"
             ],
             "name": "libimagequant",
-            "version": "4.4.1_7"
+            "version": "4.4.1_8"
           },
           {
             "licenses": [
@@ -1012,7 +1012,7 @@
               "BSD3CLAUSE"
             ],
             "name": "libyuv",
-            "version": "0.0.1903"
+            "version": "0.0.1973"
           },
           {
             "licenses": [
@@ -1124,7 +1124,7 @@
               "Libpng"
             ],
             "name": "png",
-            "version": "1.6.58"
+            "version": "1.6.59_1"
           },
           {
             "licenses": [
@@ -1194,7 +1194,7 @@
               "APACHE20"
             ],
             "name": "py312-bcrypt",
-            "version": "5.0.0_8"
+            "version": "5.0.0_9"
           },
           {
             "licenses": [
@@ -1223,7 +1223,7 @@
               "BSD3CLAUSE"
             ],
             "name": "py312-cryptography",
-            "version": "50.0.1,1"
+            "version": "50.0.1_1,1"
           },
           {
             "licenses": [
@@ -1273,7 +1273,7 @@
               "MIT"
             ],
             "name": "py312-nh3",
-            "version": "0.3.7_1"
+            "version": "0.3.7_2"
           },
           {
             "licenses": [
@@ -1366,7 +1366,7 @@
               "MIT"
             ],
             "name": "py312-pydantic-core",
-            "version": "2.46.5"
+            "version": "2.46.5_1"
           },
           {
             "licenses": [
@@ -1408,7 +1408,7 @@
               "MIT"
             ],
             "name": "py312-rpds-py",
-            "version": "2026.6.3"
+            "version": "2026.6.3_1"
           },
           {
             "licenses": [
@@ -1429,14 +1429,14 @@
               "PSFL"
             ],
             "name": "py312-sqlite3",
-            "version": "3.12.14_10"
+            "version": "3.12.15_10"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "py312-tkinter",
-            "version": "3.12.14_11"
+            "version": "3.12.15_11"
           },
           {
             "licenses": [
@@ -1496,7 +1496,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -1517,7 +1517,7 @@
               "APACHE20"
             ],
             "name": "s2n-tls",
-            "version": "1.7.11,1"
+            "version": "1.7.12,1"
           },
           {
             "licenses": [
@@ -1629,7 +1629,7 @@
               "MIT"
             ],
             "name": "xorgproto",
-            "version": "2025.1"
+            "version": "2026.1"
           },
           {
             "licenses": [
@@ -2489,7 +2489,7 @@
           {
             "name": "sqlite3",
             "purl": "",
-            "version": "3.12.14"
+            "version": "3.12.15"
           },
           {
             "name": "sshtunnel",
@@ -2504,7 +2504,7 @@
           {
             "name": "tkinter",
             "purl": "",
-            "version": "3.12.14"
+            "version": "3.12.15"
           },
           {
             "name": "tomli",

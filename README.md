@@ -39,13 +39,13 @@ services:
       - PUID=1000  # User ID for the application process
       - PGID=1000  # Group ID for the application process
       - TZ=UTC  # Timezone for the container
-      - SUPERSET_SECRET_KEY=<SUPERSET_SECRET_KEY>  # Flask SECRET_KEY; auto-generated and persisted to /config/.secret_key when unset
-      - SUPERSET_ADMIN_USERNAME=  # Admin username to ensure on startup (default: admin)
-      - SUPERSET_ADMIN_PASSWORD=<SUPERSET_ADMIN_PASSWORD>  # When set, creates/ensures the admin user on startup
-      - SUPERSET_ADMIN_EMAIL=  # Admin email (default: admin@example.com)
-      - SUPERSET_WORKERS=  # Gunicorn worker count (default: 2)
-      - DATABASE_URL=  # Metadata database URI (default: sqlite:////config/superset.db)
-      - REDIS_URL=  # Redis URL for caching
+      # - SUPERSET_SECRET_KEY=  # Flask SECRET_KEY; auto-generated and persisted to /config/.secret_key when unset
+      # - SUPERSET_ADMIN_USERNAME=  # Admin username to ensure on startup (default: admin)
+      # - SUPERSET_ADMIN_PASSWORD=  # When set, creates/ensures the admin user on startup
+      # - SUPERSET_ADMIN_EMAIL=  # Admin email (default: admin@example.com)
+      # - SUPERSET_WORKERS=  # Gunicorn worker count (default: 2)
+      # - DATABASE_URL=  # Metadata database URI (default: sqlite:////config/superset.db)
+      # - REDIS_URL=  # Redis URL for caching
     volumes:
       - "/containers/superset:/config"
     ports:
@@ -68,13 +68,6 @@ DIRECTOR_PROJECT=superset
 PUID=1000
 PGID=1000
 TZ=UTC
-SUPERSET_SECRET_KEY=<SUPERSET_SECRET_KEY>
-SUPERSET_ADMIN_USERNAME=
-SUPERSET_ADMIN_PASSWORD=<SUPERSET_ADMIN_PASSWORD>
-SUPERSET_ADMIN_EMAIL=
-SUPERSET_WORKERS=
-DATABASE_URL=
-REDIS_URL=
 ```
 
 **appjail-director.yml**:
@@ -97,13 +90,6 @@ services:
         - PUID: !ENV '${PUID}'
         - PGID: !ENV '${PGID}'
         - TZ: !ENV '${TZ}'
-        - SUPERSET_SECRET_KEY: !ENV '${SUPERSET_SECRET_KEY}'
-        - SUPERSET_ADMIN_USERNAME: !ENV '${SUPERSET_ADMIN_USERNAME}'
-        - SUPERSET_ADMIN_PASSWORD: !ENV '${SUPERSET_ADMIN_PASSWORD}'
-        - SUPERSET_ADMIN_EMAIL: !ENV '${SUPERSET_ADMIN_EMAIL}'
-        - SUPERSET_WORKERS: !ENV '${SUPERSET_WORKERS}'
-        - DATABASE_URL: !ENV '${DATABASE_URL}'
-        - REDIS_URL: !ENV '${REDIS_URL}'
     volumes:
       - superset: /config
 volumes:
@@ -147,13 +133,6 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=UTC
-      - SUPERSET_SECRET_KEY=<SUPERSET_SECRET_KEY>
-      - SUPERSET_ADMIN_USERNAME=
-      - SUPERSET_ADMIN_PASSWORD=<SUPERSET_ADMIN_PASSWORD>
-      - SUPERSET_ADMIN_EMAIL=
-      - SUPERSET_WORKERS=
-      - DATABASE_URL=
-      - REDIS_URL=
     volumes:
       - "/containers/superset:/config"
 ```
