@@ -5,7 +5,7 @@
 # --------------------------------------------------------------------------
 
 ARG BASE_VERSION=15.1
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 # "latest" resolves from PyPI at build time; pin with --build-arg SUPERSET_VERSION=x.y.z
@@ -89,9 +89,12 @@ ENV SUPERSET_HOME=/config \
     HOME=/config
 
 COPY root/ /
+RUN chmod +x /daemonless/libexec/superset /daemonless/init.d/*
+
+CMD ["/daemonless/libexec/superset"]
 
 RUN chown -R bsd:bsd /app && \
-    chmod +x /etc/services.d/superset/run /etc/cont-init.d/10-superset /healthz
+    chmod +x /healthz
 
 EXPOSE 8088
 VOLUME /config

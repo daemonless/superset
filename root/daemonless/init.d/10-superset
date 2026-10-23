@@ -17,12 +17,12 @@ fi
 
 # Migrate the metadata database (SQLite by default, DATABASE_URL to override).
 echo "[init] Running superset db upgrade..."
-s6-setuidgid bsd /app/venv/bin/superset db upgrade
+dsu bsd /app/venv/bin/superset db upgrade
 
 # Ensure an admin user when credentials are provided.
 if [ -n "$SUPERSET_ADMIN_PASSWORD" ]; then
     echo "[init] Ensuring admin user '${SUPERSET_ADMIN_USERNAME:-admin}'..."
-    s6-setuidgid bsd /app/venv/bin/superset fab create-admin \
+    dsu bsd /app/venv/bin/superset fab create-admin \
         --username "${SUPERSET_ADMIN_USERNAME:-admin}" \
         --firstname Superset \
         --lastname Admin \
@@ -31,6 +31,6 @@ if [ -n "$SUPERSET_ADMIN_PASSWORD" ]; then
 fi
 
 echo "[init] Running superset init..."
-s6-setuidgid bsd /app/venv/bin/superset init
+dsu bsd /app/venv/bin/superset init
 
 echo "[init] Superset initialization complete"
