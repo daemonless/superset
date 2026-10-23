@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-22T00:09:41Z",
+  "generated": "2026-10-23T08:33:53Z",
   "image": "superset",
   "tags": {
     "latest": {
       "app_version": "6.1.0",
       "arch": "amd64",
-      "generated": "2026-10-22T00:06:53Z",
+      "generated": "2026-10-23T08:27:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -464,13 +464,6 @@
             ],
             "name": "duktape-lib",
             "version": "2.7.0_1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
           },
           {
             "licenses": [
@@ -1521,24 +1514,10 @@
           },
           {
             "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
               "GPLv2"
             ],
             "name": "shared-mime-info",
             "version": "2.4_2"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
           },
           {
             "licenses": [
@@ -2613,7 +2592,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 229,
+        "freebsd": 226,
         "go": 0,
         "java": 0,
         "node": 12,
@@ -2621,7 +2600,7 @@
         "python": 180,
         "ruby": 0,
         "rust": 0,
-        "total": 421
+        "total": 418
       }
     }
   }
