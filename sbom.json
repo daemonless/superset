@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-03T12:12:53Z",
+  "generated": "2026-11-04T14:26:22Z",
   "image": "superset",
   "tags": {
     "latest": {
       "app_version": "6.1.0",
       "arch": "amd64",
-      "generated": "2026-11-03T12:09:40Z",
+      "generated": "2026-11-04T14:23:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -308,7 +308,7 @@
               "APACHE20"
             ],
             "name": "aws-c-common",
-            "version": "1.0.3,1"
+            "version": "1.0.5,1"
           },
           {
             "licenses": [
@@ -350,7 +350,7 @@
               "APACHE20"
             ],
             "name": "aws-c-s3",
-            "version": "1.4.1"
+            "version": "1.5.1"
           },
           {
             "licenses": [
@@ -371,7 +371,7 @@
               "APACHE20"
             ],
             "name": "aws-crt-cpp",
-            "version": "0.44.2"
+            "version": "0.44.3"
           },
           {
             "licenses": [
@@ -1252,14 +1252,14 @@
               "APACHE20"
             ],
             "name": "py312-msgpack",
-            "version": "1.2.2"
+            "version": "1.2.3"
           },
           {
             "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "py312-msgspec",
-            "version": "0.21.1"
+            "version": "0.22.0"
           },
           {
             "licenses": [
@@ -1510,7 +1510,7 @@
               "APACHE20"
             ],
             "name": "s2n-tls",
-            "version": "1.7.12,1"
+            "version": "1.7.13,1"
           },
           {
             "licenses": [
@@ -2183,12 +2183,12 @@
           {
             "name": "msgpack",
             "purl": "",
-            "version": "1.2.2"
+            "version": "1.2.3"
           },
           {
             "name": "msgspec",
             "purl": "",
-            "version": "0.21.1"
+            "version": "0.22.0"
           },
           {
             "name": "my-test-package",
